@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/phillips",
   "title": "Phillips",
   "description": "Phillips MCP — realized auction prices from phillips.com.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "websiteUrl": "https://pipeworx.io/packs/phillips",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-phillips",
