@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-phillips",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "Phillips MCP — realized auction prices from phillips.com.",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-phillips": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "phillips"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-phillips.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/phillips",
   "pipeworx": {
-    "sourceHash": "v1-726716fbd3a798462f51ec35e85bbed13b02deb8a26422abba3c80899378d5ed",
-    "sourceCommit": "4d51421bd010ad9a322c2245b70b401604912eff"
+    "mode": "gateway",
+    "slug": "phillips",
+    "gatewaySlug": "phillips",
+    "sourceHash": "v1-ded060309f5fe649bd492683b0c2b01b10caf79dc969995a7a049ebe79de3055",
+    "sourceCommit": "6bae4cfa7b6a73bbe014dc8820a19c80c842b21e"
   }
 }
