@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-phillips",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Phillips MCP — realized auction prices from phillips.com.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "phillips",
     "gatewaySlug": "phillips",
-    "sourceHash": "v1-ded060309f5fe649bd492683b0c2b01b10caf79dc969995a7a049ebe79de3055",
-    "sourceCommit": "6bae4cfa7b6a73bbe014dc8820a19c80c842b21e"
+    "sourceHash": "v1-3d498f40c10d2d3904fff3e28a4d2aa4499bd5a8bea63ce46c066d6af3e5db29",
+    "sourceCommit": "243a06a6ca2d3b6075325f3b66a1468d0a2eb603"
   }
 }
